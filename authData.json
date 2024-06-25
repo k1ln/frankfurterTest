@@ -1,0 +1,11 @@
+{
+    "data": [
+        {
+            "name": "John Doe",
+            "apiKey": "1234567890",
+            "rights": [
+                "getJwtToken"
+            ]
+        }
+    ]
+}
