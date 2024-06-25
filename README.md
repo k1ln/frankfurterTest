@@ -6,9 +6,11 @@ node index.js
 ```
 
 /auth
+  
   -> POST body {"key":"1234567890"}
   
 /latest
+  
   -> GET -> HEADER Authorization : Result from /auth
   
 ## Testing
