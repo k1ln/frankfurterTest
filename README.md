@@ -5,13 +5,9 @@ run:
 node index.js
 ```
 
-/auth
+/auth -> POST body {"key":"1234567890"}
   
-  -> POST body {"key":"1234567890"}
-  
-/latest
-  
-  -> GET -> HEADER Authorization : Result from /auth
+/latest -> GET -> HEADER Authorization : Result from /auth
   
 ## Testing
 Please add the token from auth path to latest Authorization Header, when testing.
